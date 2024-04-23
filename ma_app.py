@@ -54,6 +54,7 @@ def fetch_data(bigger_ma, smaller_ma):
     return(date, ci, confidence_interval, current_diff, indication)
 
 def main():
+    st.set_page_config(page_title="Investing with Moving Averages")
     st.title("Investing with Moving Averages")
 
     st.write("""
