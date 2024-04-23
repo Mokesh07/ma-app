@@ -180,7 +180,7 @@ def main():
             st.warning("Please enter valid numerical values for moving averages.")
             sys.exit()
         if int(short_ma) >= int(long_ma):
-            st.warning("Short-Term MA should be greater than Long-Term MA.")
+            st.warning("Short-Term MA should be lesser than Long-Term MA.")
             sys.exit()
 
         # Fetching the data
