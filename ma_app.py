@@ -61,7 +61,7 @@ def main():
     """)
 
     # Display picture
-    st.image(r"C:\Users\um01\OneDrive - Pfizer\Desktop\My Work\Innovate\MA APP\single_ma.png",
+    st.image("single_ma.png",
              caption='21-Day Moving Average applied on Price Data')
 
     # Subtitle
@@ -85,7 +85,7 @@ def main():
     """)
 
     # Display picture
-    st.image(r"C:\Users\um01\OneDrive - Pfizer\Desktop\My Work\Innovate\MA APP\double_ma.png",
+    st.image("double_ma.png",
              caption='21-Day/7-Day Moving Average applied on Price Data with Crossover(+)')
 
     st.subheader("Leveraging Moving Average for Market Entry Points")
@@ -118,9 +118,8 @@ def main():
     on values beyond that range, investors can determine when to invest.""")
 
     # Display picture
-    st.image(r"C:\Users\um01\OneDrive - Pfizer\Desktop\My Work\Innovate\MA APP\boundary.png",
+    st.image("boundary.png",
              caption='Historical difference between long and short-term MA')
-
 
     st.subheader("Results")
 
